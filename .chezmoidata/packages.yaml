@@ -2,5 +2,12 @@ packages:
   darwin:
     brews:
     - 'chezmoi'
+    - 'mise'
     casks:
     - 'firefox'
+    - 'ghostty'
+    - 'kindle-comic-converter'
+    - 'plex'
+    - 'plexamp'
+    - 'signal'
+
