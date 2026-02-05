@@ -1,0 +1,8 @@
+#!/bin/sh
+# packages hash: {{ include "dot_config/mise/config.toml" | sha256sum }}
+
+{{ if eq .chezmoi.os "darwin" -}}
+
+mise trust $HOME/.config/mise/config.toml && mise install
+
+{{ end -}}
