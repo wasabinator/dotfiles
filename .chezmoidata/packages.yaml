@@ -3,6 +3,7 @@ packages:
     brews:
     - 'chezmoi'
     - 'mise'
+    - 'starship'
     casks:
     - 'firefox'
     - 'ghostty'
