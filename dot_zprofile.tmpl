@@ -1,6 +1,6 @@
 {{- if eq .chezmoi.os "darwin" }}
 eval "$(/opt/homebrew/bin/brew shellenv)"
-eval "$(mise activate zsh)"
 eval "$(starship init zsh)"
+eval "$(flox activate -d $HOME)"
 fastfetch
 {{- end }}
