@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir -p "${HOME}/.config/direnv/lib/"
+curl -o "${HOME}/.config/direnv/lib/flox-direnv.sh" "https://raw.githubusercontent.com/flox/flox-direnv/v1.1.0/direnv.rc"
+flox config --set shell_prompt hide-default
